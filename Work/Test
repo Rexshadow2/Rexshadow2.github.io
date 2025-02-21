@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+  <!--Start-->
+    <h1Math Test/h1>
+<form>
+  <fieldset>
+    <legend>Multiple choice>/legend>
+    <p>What is 5 &times; 4</p>
+    <input type="radio" name="question1" value="question1">9
+    <input type="radio" name="question1" value="question1">20
+    <input type="radio" name="question1" value="question1">1
+    <input type="radio" name="question1" value="question1">100
+  </fieldset>
+</form>
+   
+    
+
+    
+   
+  </body>
+</html>
