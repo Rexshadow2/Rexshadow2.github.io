@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboards</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+
+    
+    <table>
+      <caption>Rock Paper Scissors</caption>
+
+      <tr>
+        <th>Player 1</th>
+        <th>Player 2</th>
+        <th>Round</th>
+        <th>Result</th>
+
+      </tr>
+      <tr>
+        <td><a class="highlight">example person</a></td>
+        <td><a class="highlight">example person2</a></td>
+        <td>1</td>
+        <td>P1 win</td>
+      </tr>
+      <tr>
+        <td><a class="highlight">example person </a></td>
+        <td><a class="highlight">example person 3</a></td>
+        <td>2</td>
+        <td>Tie</td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+
+  </body>
+</html>
