@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboards</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+
+    
+    <table>
+      <caption>Basketball Scorcard Game 1</caption>
+
+      <tr>
+        <th>Player</th>
+        <th>Baskets</th>
+        <th>Asists</th>
+        <th>Passes</th>
+        <th>Made Shot Percentage</th>
+      </tr>
+      <tr>
+        <td><a class="highlight">example person</a></td>
+        <td>24</td>
+        <td>18</td>
+        <td>65</td>
+        <td>73</td>
+      </tr>
+      <tr>
+        <td><a class="highlight">example person 2</a></td>
+        <td>18</td>
+        <td>45</td>
+        <td>98</td>
+        <td>80%</td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <table>
+      <caption>Soccer Scorcard Game 2</caption>
+
+      <tr>
+        <th>Player</th>
+        <th>Goals</th>
+        <th>Asists</th>
+        <th>Passes</th>
+        <th>Ejections</th>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+        <tr>
+        <td><a class="highlight"></a></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+  </body>
+</html>
