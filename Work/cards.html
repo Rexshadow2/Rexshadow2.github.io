@@ -6,11 +6,22 @@
     <title>Review Cards!</title>
   </head>
   <style>
+    @keyframes startAnimation{
+      from {color: orange; }
+
+      to { color: red;}
+    }
+    .animation{
+      animation-name: start Animation;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
     .a{
       width: 50%;
       height: 100px;
       background-color: blue;
       padding: 10px;
+      color: white;
       transition: width 3s, height 3s;
     }
     .a:hover{
@@ -19,6 +30,9 @@
     }
   </style>
   <body>
+    <div>
+      <h1 class = "animation">History Study Guide</h1>
+    </div>
     <div class = "a">
         <p>What is the acronym for the 4 main causes of WWI?</p>
     </div>
