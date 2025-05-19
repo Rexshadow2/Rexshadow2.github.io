@@ -10,5 +10,6 @@ h1 {
 section.container {
   display: flex;
   justify-content: space-around;
+  border: 5px;
 }
 
