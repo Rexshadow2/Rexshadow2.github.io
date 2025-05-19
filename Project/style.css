@@ -7,12 +7,13 @@ h1 {
   font-size:50px;
   color: black;
 }
+table, tr, td {
+  border : 5px solid black; 
+}
+
 section.container {
   display: flex;
   justify-content: space-around;
   border: 5px;
-}
-table, tr, td {
-  border : 5px solid black; 
 }
 
