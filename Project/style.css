@@ -9,9 +9,11 @@ h1 {
 }
 section.container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 .a {
   font-size: 25px;
+  border: 2px;
+  color: black;
   
 }
