@@ -10,7 +10,10 @@ h1 {
 table, tr, td {
   border : 5px solid black; 
 }
-
+.a1{
+  width: 750px;
+  height: 500px;
+}
 section.container {
   display: flex;
   justify-content: space-around;
