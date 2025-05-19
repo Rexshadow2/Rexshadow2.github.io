@@ -11,3 +11,7 @@ section.container {
   display: flex;
   justify-content: flex-start;
 }
+.a {
+  font-size: 25px;
+  
+}
