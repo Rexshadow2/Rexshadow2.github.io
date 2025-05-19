@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <link rel="stylesheet" href="mystyle.css">
+    
+    <p id = "h">Guess a random number between 1 and a 100!</p>
+    <input type="text" id="demo" value="Guess a number">
+    <p id="demo2"></p>
+    <button onclick="guess()" id="demo3">Guess</button>
+    <button onclick="newNumber()" id="demo4">New Number</button>
+    <button onclick="myFunction()">Button to Change Font Size</button>
+  
+   <p><a href="https://lightningcodding.neocities.org/HomePage">Home</a></p>
+  
+  <script>
+  let x = 0;
+  newNumber();
+  function newNumber(){
+  x = Math.floor(Math.random() * 101);
+  document.getElementById("demo").innerHTML = " ";
+  }
+  
+  function guess(){
+  let y = document.getElementById("demo").value;
+   if(y == x){
+    document.getElementById("demo2").innerHTML = "You got it!"; 
+   }
+   if(y > x){
+     let z = y-x;
+     if( z >= 50){
+       document.getElementById("demo2").innerHTML = "Way too high";
+     }
+     else if(z >= 25){
+       document.getElementById("demo2").innerHTML  = "Too high";
+     }
+     else if(z >= 10){
+      document.getElementById("demo2").innerHTML = "A bit too high"; 
+     }
+     else if(z >= 1){
+       document.getElementById("demo2").innerHTML = "A Tiny bit too high";
+   }
+   }
+   if(y < x){
+    let z = x-y;
+    if( z >= 50){
+       document.getElementById("demo2").innerHTML = "Way too low";
+     }
+     else if(z >= 25){
+       document.getElementById("demo2").innerHTML  = "Too low";
+     }
+     else if(z >= 10){
+      document.getElementById("demo2").innerHTML = "A bit too low"; 
+     }
+     else if(z >= 1){
+       document.getElementById("demo2").innerHTML = "A Tiny bit too low";
+      }
+    
+    }
+  }
+  
+  let i = 0;
+   function myFunction(){
+      if(i==0){
+        document.getElementById("demo").style.fontSize = "30px";
+        document.getElementById("demo2").style.fontSize = "30px";
+        document.getElementById("h").style.fontSize = "30px";
+        i = 1;
+      }
+      else{
+       document.getElementById("demo").style.fontSize = "20px"; 
+       document.getElementById("demo2").style.fontSize = "20px"; 
+       document.getElementById("h").style.fontSize = "20px";
+       i = 0;
+      }
+      
+    }
+  </script>
+  
+  </body>
+</html>
