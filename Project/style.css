@@ -11,8 +11,4 @@ section.container {
   display: flex;
   justify-content: space-around;
 }
-.a {
-  font-size: 25px;
-  border: 2px;
-  color: blue;
-}
+
